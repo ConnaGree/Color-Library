@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="/Favicon/Vector.jpg" type="image/jpg">
+
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="spice.css" />
+
+    <!-- GOOGLE FONT -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ICONSCOUT -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <!-- BOXICONS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Color Flipper</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <h4 class="logo">Color Flipper</h4>
+        <ul class="nav-links">
+          <li>
+            <a href="index.html" class="simple-btn">Simple</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <div class="first-div color-pal" data-locked="false">
+        <div class="controls">
+          <button class="copy__hex"><i class="bx bx-copy"></i></button>
+          <button class="delete__palette"><i class="uil uil-times"></i></i></button>
+          <button class="lock__palette"><i class="uil uil-unlock"></i></button>
+        </div>
+
+        <div class="color-name-1 name"></div>
+      </div>
+
+      <div class="second-div color-pal" data-locked="false">
+        <div class="controls">
+          <button class="copy__hex"><i class="bx bx-copy"></i></button>
+          <button class="delete__palette"><i class="uil uil-times"></i></i></button>
+          <button class="lock__palette"><i class="uil uil-unlock"></i></button>
+        </div>
+        <div class="color-name-2 name"></div>
+      </div>
+
+      <div class="third-div color-pal" data-locked="false">
+        <div class="controls">
+          <button class="copy__hex"><i class="bx bx-copy"></i></button>
+          <button class="delete__palette"><i class="uil uil-times"></i></i></button>
+          <button class="lock__palette"><i class="uil uil-unlock"></i></button>
+        </div>
+        <div class="color-name-3 name"></div>
+      </div>
+
+      <div class="fourth-div color-pal" data-locked="false">
+        <div class="controls">
+          <button class="copy__hex"><i class="bx bx-copy"></i></button>
+          <button class="delete__palette"><i class="uil uil-times"></i></i></button>
+          <button class="lock__palette"><i class="uil uil-unlock"></i></button>
+        </div>
+        <div class="color-name-4 name"></div>
+      </div>
+
+      <div class="fifth-div color-pal" data-locked="false">
+        <div class="controls">
+          <button class="copy__hex"><i class="bx bx-copy"></i></button>
+          <button class="delete__palette"><i class="uil uil-times"></i></i></button>
+          <button class="lock__palette"><i class="uil uil-unlock"></i></button>
+        </div>
+        <div class="color-name-5 name"></div>
+      </div>
+
+      <div class="add-color-pallette-container">
+        <button class="add-pallette">
+          <i class="uil uil-plus add-icon"></i>
+        </button>
+      </div>
+
+      <!-- Confirm Copy to Clipboard -->
+
+      <div class="confirm__container">
+        <p class="text"><i class="uil uil-check-circle confirm__icon"></i> <span>Color Copied to Clipboard</span></p>
+      </div>
+    </main>
+    <script src="spice.js"></script>
+  </body>
+</html>
